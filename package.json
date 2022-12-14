@@ -1,0 +1,14 @@
+{
+  "name": "socialClub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.15",
+    "@types/prompt-sync": "^4.2.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
