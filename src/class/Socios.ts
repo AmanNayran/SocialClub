@@ -1,22 +1,12 @@
 class SocioIndividual {
     constructor(
-        private _cpf: string, 
-        private _nome: string, 
-        private _senha: string,
+        public cpf: string, 
+        public nome: string, 
+        public senha: string,
     ){
-        this._cpf = _cpf
-        this._nome = _nome
-        this._senha = _senha
-    }
-
-    public get cpf(){
-        return this._cpf
-    }
-    public get nome(){      
-        return this._nome
-    }
-    public get senha(){
-        return this._senha
+        this.cpf = cpf
+        this.nome = nome
+        this.senha = senha
     }
 
 }
